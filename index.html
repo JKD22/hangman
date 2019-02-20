@@ -1,49 +1,42 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Word Game</title>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-<head>
-  <meta charset="UTF-8">
-  <title>About | Your Name</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" differ></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" differ></script>
+    <!-- Javascript -->
+    <script src="assets/javascript/game.js" async></script>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  <body>
 
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-</head>
-
-<body>
-    <header id="masthead">
-        <div class="container">
-          <a href="index.html" id="logo">Your Name</a>
-          <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-          </nav>
+    <!-- display -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="jumbotron">
+            <h1 class="display-3" id="wordDisplay"></h1>
+          <p class="lead" id="guessCounter"></p>
+          <hr class="my-2">
+          <p>press keys to make guesses</p>
+            <p class="lead">
+              <div id="gameStartButton" class="btn btn-primary btn-lg" role="button">START</div>
+            </p>
+          </div>
         </div>
-      </header>
-
-  <br>
-
-  <div id="main-container" class="container">
-    <div class="row">
-      <div class="col-sm-12 main-section">
-        <h1>About me</h1>
-        <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
-        <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
-        <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-      </div>   
-    </div>
-  
-    <footer>
-        <div class="container">
-          Copyright © 
-        </div>
-    </footer>
-
-</body>
-
+      
+  </body>
 </html>
